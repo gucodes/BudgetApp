@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "serve": "live-server public/",
     "build:dev": "webpack",
     "build:prod": "webpack -p --env production",
     "dev-server": "webpack-dev-server",
@@ -25,8 +24,6 @@
     "css-loader": "^2.1.0",
     "express": "^4.16.4",
     "extract-text-webpack-plugin": "^4.0.0-beta.0",
-    "jest": "^24.7.1",
-    "live-server": "^1.2.1",
     "moment": "^2.24.0",
     "node-sass": "^4.11.0",
     "normalize.css": "^8.0.1",
@@ -41,7 +38,9 @@
     "style-loader": "^0.23.1",
     "uuid": "^3.3.2",
     "webpack": "^4.29.6",
-    "webpack-cli": "^3.2.3",
+    "webpack-cli": "^3.2.3" 
+  },
+  "devDependencies": {
     "webpack-dev-server": "^3.2.1"
   }
 }
